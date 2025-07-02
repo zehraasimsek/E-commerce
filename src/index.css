@@ -1,0 +1,84 @@
+@import "tailwindcss";
+/* ====== RESET STYLES ====== */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd,
+ul,
+ol,
+pre,
+table,
+fieldset,
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove link underline and set color to inherit */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set base font and line height */
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Remove borders and appearance on form elements */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+/* Make images and media responsive */
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove built-in form styles in WebKit/Blink */
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
