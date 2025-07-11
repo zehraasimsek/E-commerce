@@ -27,10 +27,8 @@ pre,
 table,
 fieldset,
 input,
-textarea,
-button {
+textarea {
   margin: 0;
-  padding: 0;
 }
 
 /* Remove list styles */
@@ -54,7 +52,6 @@ body {
 }
 
 /* Remove borders and appearance on form elements */
-button,
 input,
 select,
 textarea {
@@ -80,5 +77,4 @@ svg {
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
   -webkit-appearance: none;
-  margin: 0;
 }
